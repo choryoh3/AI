@@ -1,0 +1,27 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "��#\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test_js": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choryoh3/AI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choryoh3/AI/issues"
+  },
+  "homepage": "https://github.com/choryoh3/AI#readme",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,1 +1,161 @@
+# ============================================================
+# Environment variables
+# ============================================================
+# Environment variables for different environments
 .env
+.env.local
+.env.test
+.env.production
+
+# ============================================================
+# Node.js
+# ============================================================
+# Dependencies
+node_modules/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager caches
+.npm/
+.yarn/cache/
+.pnpm-store/
+
+
+# ============================================================
+# Build / Output
+# ============================================================
+
+# TypeScript
+dist/
+build/
+out/
+
+# Common framework outputs
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+
+# Coverage
+coverage/
+.nyc_output/
+
+
+# ============================================================
+# Environment variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+logs/
+*.log
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS temporary files
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+
+
+# ============================================================
+# OS
+# ============================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+# ============================================================
+# TypeScript
+# ============================================================
+
+# TypeScript incremental compilation
+*.tsbuildinfo
+
+
+# ============================================================
+# Database / Local development
+# ============================================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# SQLite temporary files
+*.db-shm
+*.db-wal
+
+
+# ============================================================
+# Test / E2E
+# ============================================================
+
+playwright-report/
+test-results/
+
+# Jest
+jest-stare/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+
+# ============================================================
+# Misc
+# ============================================================
+
+.cache/
+.parcel-cache/
