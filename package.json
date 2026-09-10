@@ -4,8 +4,9 @@
   "description": "��#\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000d\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test_js": "node src/index.js"
+    "dev": "cross-env NODE_ENV=development node src/index.js",
+    "test": "cross-env NODE_ENV=test node src/index.js",
+    "prod": "cross-env NODE_ENV=production node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,11 @@
   },
   "homepage": "https://github.com/choryoh3/AI#readme",
   "dependencies": {
-    "dayjs": "^1.11.23"
+    "dayjs": "^1.11.23",
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "typescript": "^7.0.2"
   }
 }
